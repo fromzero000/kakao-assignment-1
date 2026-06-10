@@ -10,13 +10,22 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
-*.local
+build
+.next
 
-# Editor directories and files
+# Secrets and Environment Variables
+.env
+.env.local
+.env.*.local
+*.local
+*.pem
+
+# Editor directories and OS files
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
